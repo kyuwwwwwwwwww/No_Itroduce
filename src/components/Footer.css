@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "MarinesBold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2502-1@1.0/MarinesBold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GangwonEdu_OTFBoldA";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.qa {
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+
+.qa_name {
+  display: flex;
+  justify-content: center;
+  color: #6a75ca;
+  font-size: 40px;
+  font-family: MarinesBold;
+  margin-bottom: 3%;
+}
+.icon_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icon {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.email {
+  padding: 5% 0 0 0;
+  display: flex;
+  justify-content: center;
+  color: #6a75ca;
+  font-family: GangwonEdu_OTFBoldA;
+  font-size: 20px;
+}
